@@ -14,8 +14,6 @@ public:
   bool connected = false;
   void onConnect(BLEServer* pServer);
   void onDisconnect(BLEServer* pServer);
-  BLECharacteristic* inputKeyboard;
-  BLECharacteristic* outputKeyboard;
   BLECharacteristic* inputMediaKeys;
 };
 
